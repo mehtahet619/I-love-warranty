@@ -1,0 +1,14 @@
+/* Base reset & typography */
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; }
+body { font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; line-height:1.5; -webkit-font-smoothing: antialiased; background:#f5f9ff; }
+body.dark { background:#050b18; }
+
+/* Allow our React root to stretch full width */
+#root { width:100%; }
+
+/* Remove default button styling from legacy template (handled in ui.css now) */
+button { font-family: inherit; }
+
+/* Utility */
+.visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); border:0; }
